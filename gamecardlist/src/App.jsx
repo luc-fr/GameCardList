@@ -1,11 +1,20 @@
-import React from 'react'
-import "./App.css"
-import imgGamecardlist from "./assets/gamecardlistBanner.png"
+import "./App.css";
+import Categorias from "./components/Categorias";
+import Cards from "./components/Cards";
+import Banner from "./components/Banner";
 
 function App() {
+  return (
+    <div className="container">
+      
+      <Banner />
 
-  return <img src={imgGamecardlist} alt="Banner do GameCardList" />
+      <Categorias />
 
+      <Cards />
+      
+    </div>
+  );
 }
 
-export default App
+export default App;
