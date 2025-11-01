@@ -1,12 +1,11 @@
 import React from 'react'
+import "./App.css"
+import imgGamecardlist from "./assets/gamecardlistBanner.png"
 
 function App() {
 
-  console.log("Olá, Mundo!")
+  return <img src={imgGamecardlist} alt="Banner do GameCardList" />
 
-  return (
-    <div>App</div>
-  )
 }
 
 export default App
